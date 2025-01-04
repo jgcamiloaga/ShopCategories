@@ -3,9 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Shop Categories</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/app.js"></script>
 </head>
 <body>
+    <div class="wrap">
+        <h1>Escoge el producto</h1>
+        <div class="store-wrapper">
+            <div class="category-list">
+                <a href="#" id="categoryItem" category="all">Todo</a>
+                <a href="#" id="categoryItem" category="ordenadores">Ordenadores</a>
+                <a href="#" id="categoryItem" category="laptops">Laptops</a>
+                <a href="#" id="categoryItem" category="smartphones">Smartphones</a>
+                <a href="#" id="categoryItem" category="monitores">Monitores</a>
+                <a href="#" id="categoryItem" category="audifonos">Audifonos</a>
+            </div>
+            <section class="products-list">
+                <div class="product-item" category="laptops">
+                    <img src="img/laptop_hp.jpg" alt="Laptop HP">
+                    <a href="#">Laptop HP</a>
+                </div>
+                <div class="product-item" category="laptops">
+                    <img src="img/laptop_toshiba.jpg" alt="Laptop Toshiba">
+                    <a href="#">Laptop Toshiba</a>
+                </div>
+                <div class="product-item" category="smartphones">
+                    <img src="img/samsung_galaxy.jpg" alt="Samsung Galaxy">
+                    <a href="#">Samsung Galaxy</a>
+                </div>
+                <div class="product-item" category="smartphones">
+                    <img src="img/iphone.jpg" alt="iPhone">
+                    <a href="#">iPhone 7</a>
+                </div>
+                <div class="product-item" category="monitores">
+                    <img src="img/monitor_asus.jpg" alt="Monitor Asus">
+                    <a href="#">Monitor Asus</a>
+                </div>
+                <div class="product-item" category="ordenadores">
+                    <img src="img/pc_hp.jpg" alt="PC HP">
+                    <a href="#">PC HP</a>
+                </div>
+                <div class="product-item" category="ordenadores">
+                    <img src="img/pc_lenovo.jpg" alt="PC Lenovo">
+                    <a href="#">PC Lenovo</a>
+                </div>
+                <div class="product-item" category="audifonos">
+                    <img src="img/jbl.jpg" alt="Audifonos jbl">
+                    <a href="#">Audifonos jbl</a>
+            </section>
+        </div>
+    </div>
     
 </body>
 </html>
